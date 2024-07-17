@@ -12,10 +12,7 @@ TODO:  Change these things along with:
 const font = Inter({ weight: 'variable', subsets: ['latin']})
 const title = 'Joey\'s Site';
 const description = 'This my personal site, not Luke\'s';
-const links = [
-  {title: 'Pokemon', href: '/pokemon'},
-  {title: 'Rick and Morty', href: '/rick-and-morty'}
-];
+
 const SocialLinks = {
   github: 'https://github.com/JoeyZeee',
   instagram: 'https://www.instagram.com/joeyzeeeeeee/',
@@ -38,9 +35,6 @@ export default function RootLayout({
   return (
       <html lang="en" className={'h-full'}>
       <body className={`${font.className} flex flex-col min-h-screen`}>
-      <NavBarContainer title={title} links={links}>
-        <main className={'flex-1 max-w-6xl py-8 md:py-16 px-4 md:px-0'}>{children}</main>
-      </NavBarContainer>
       <Footer socialLinks={SocialLinks}/>
       </body>
       </html>
