@@ -10,17 +10,16 @@ TODO:  Change these things along with:
   - favicon.ico in /public
  */
 const font = Inter({ weight: 'variable', subsets: ['latin']})
-const title = 'Luke\'s Site';
-const description = 'This my personal site';
+const title = 'Joey\'s Site';
+const description = 'This my personal site, not Luke\'s';
 const links = [
   {title: 'Pokemon', href: '/pokemon'},
   {title: 'Rick and Morty', href: '/rick-and-morty'}
 ];
 const SocialLinks = {
-  twitter: '#twitter',
-  github: '#github',
-  instagram: '#insta',
-  email: 'mailto:your-email@gmail.com'
+  github: 'https://github.com/JoeyZeee',
+  instagram: 'https://www.instagram.com/joeyzeeeeeee/',
+  email: 'mailto:jzambreno@gmail.com'
 }
 
 export const metadata: Metadata = {
